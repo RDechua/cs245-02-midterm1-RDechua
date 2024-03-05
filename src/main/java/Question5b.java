@@ -15,7 +15,7 @@ public class Question5b {
         // TODO: Change to sort from 0 to high, and make it stable.
         int curr;
         int j;
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1; i <= high; i++) {
             curr = arr[i];
             j = i - 1;
             while ((j >= 0) && (curr <= arr[j])) {

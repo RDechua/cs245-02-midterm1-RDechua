@@ -13,6 +13,31 @@ public class Question3 {
      */
     public static int[] mergeTwoAscendingToGetDescending(int[] descending1, int[] descending2) {
         int[] result = new int[descending1.length + descending2.length];
+        int i = descending1.length - 1;
+        int j = descending2.length - 1;
+        int k = 0;
+        while(i >= 0 || j >= 0){
+            if(i < 0){
+                result[k] = descending2[j];
+                k++;
+                j--;
+            }else if(j < 0){
+                result[k] = descending1[i];
+                k++;
+                i--;
+            }else{
+                if(descending1[i] > descending2[j]){
+                    result[k] = descending2[j];
+                    k++;
+                    j--;
+                }else{
+                    result[k] = descending1[i];
+                    k++;
+                    i--;
+                }
+            }
+
+        }
         // FILL IN CODE
 
 
