@@ -1,0 +1,10 @@
+What data structure will you use, an array or a singly linked list,
+if you want to store a collection of elements,
+ and need to frequently insert elements at front (of an array or a linked list)? (0.2pt)
+
+What is the running time of inserting an element at front of the array? (0.4)
+
+What is the running time of inserting an element at front of the linked list? (0.4)
+
+Explain your answer.
+No need to write any code for this question.

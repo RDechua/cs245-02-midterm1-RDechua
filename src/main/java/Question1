@@ -1,0 +1,28 @@
+Give Theta running time as a function of n for the method shown below and
+provide an explanation to get full credit.
+This is a non-coding question, no need to write or run code.
+
+public static int func(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+       for (int j = 1; j <= n; j = j + 2) {
+          for (int k = n; k >= 1; k--) {
+                sum  = sum + i + j*k;
+          } // end of k loop
+        } // end of j loop
+    } // end of i loop
+
+    // Note that l goes to n*n
+    for (int l = 1; l <= n*n; l++) {
+        sum++;
+    }
+    return sum;
+}
+Your answer:
+(a) Answer (0.5 pt)
+
+(b) Explanation (1.5 pt):
+Make sure you explain the running time of each loop and explain how to combine them.
+
+You may type your answers on Canvas, or  write your solution on paper and submit it to the instructor at the end of the exam,
+or type your answer here and commit&push it to github.

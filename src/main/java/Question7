@@ -1,0 +1,10 @@
+Read the description of this question on Canvas.
+Solve the following recurrence relation using the Master method.
+T(0) = T(1) = C1
+T(n) = 16T(n/4) + n^(1.5)
+
+Explain your answer. What are the two functions you are comparing?
+Specify which case applies; if applying case 1 or 3, give epsilon; in case 3, also give C.
+
+Please refer to the description of this question on Canvas
+where the instructor listed three cases of the Master theorem.

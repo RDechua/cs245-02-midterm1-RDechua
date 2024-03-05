@@ -1,0 +1,15 @@
+Consider the following recursive function that computes the factorial of n:
+
+public static int factorial(int n) {
+        if (n < 0)
+           throw new IllegalArgumentException();
+        if (n ==0 || n == 1)
+           return 1;
+        int res = factorial(n-1);
+        return n * res;
+}
+(a) (1pt) Give a recurrence relation for this function (give both base and recursive cases).
+
+
+(b) (1pt) Solve the recurrence relation using either repeated substitution
+or recursion tree to get Theta of the running time.

@@ -1,0 +1,8 @@
+(a) (1pt) Suppose we want to sort the following array from low = 2 to high=5
+using insertion sort: 6, 3, 8, 2, 4, 5, 7, 0
+
+Show the array after each pass of insertion sort.
+Show the whole array even if some elements do not change
+because they are outside the [low, high] range.
+
+You can type your answer on Canvas or write on paper, or submit it via Github.
